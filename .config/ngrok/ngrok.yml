@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 1sJIP9LJBSt4VnBU8LGUFtAwtQ2_25W9RmBWsx95W98TFh1mb
+tunnels:
+  ssh:
+    addr: 22
+    proto: tcp
+  squid:
+    addr: 3128
+    proto: tcp

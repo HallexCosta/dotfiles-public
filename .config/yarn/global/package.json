@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "create-react-app": "^5.0.1"
+  }
+}
