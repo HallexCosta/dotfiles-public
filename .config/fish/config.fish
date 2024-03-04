@@ -9,7 +9,7 @@ starship init fish | source
 set PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
 alias cat="bat --style=auto"
 alias ls="exa --icons"
-alias docker_clear="docker rmi (docker images -a -q) && docker rm (docker ps -a -q)"
+alias docker_clear="docker system prune && docker rmi (docker images -a -q) && docker rm (docker ps -a -q)"
 
 #source /opt/asdf-vm/asdf.fish
 source ~/.asdf/asdf.fish
@@ -42,6 +42,7 @@ function de
 end
 
 set GIGZ_SERVER 165.227.127.107
+set NEOPLAN_SERVER 143.198.22.93
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
